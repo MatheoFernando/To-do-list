@@ -11,7 +11,7 @@ export function Navhome() {
           <Button className="text-primary bg-se text-lg">
            Get Started
           </Button>
-          div
+        
       </div>
     </header>
   );
