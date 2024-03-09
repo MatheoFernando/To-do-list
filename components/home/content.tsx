@@ -2,6 +2,7 @@ import React from 'react'
 import { Button } from '../ui/button'
 import { Input } from '../ui/input'
 import { Star } from 'lucide-react';
+import Link from 'next/link';
 export  function Content() {
   return (
     <div className='flex flex-col md:flex-row md:justify-between mt-28'>
@@ -10,7 +11,7 @@ export  function Content() {
       <p> Plan, organize, and collaborate on any project with task management that
                can be customized for every need. </p>
   <div className="flex md:flex-row flex-col gap-4">
-  <Button className='bg-secondary text-white font-medium w-1/2 h-12  '>Get Started</Button>
+  <Button className='bg-secondary text-white font-medium w-1/2 h-12  '><Link href="/login">Get Started</Link></Button>
   <p className='text-lg text-slate-400 font-medium'>Free Forecer no Cards</p>
   </div>
   <div className="flex gap-2">
